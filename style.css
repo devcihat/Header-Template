@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: 1px solid black;
+  width: 100%;
+  height: 150px;
+  background-color: #333333;
+}
+
+#hizala {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#solKisim {
+  width: 30%;
+  height: 100px;
+  float: left;
+}
+
+#solKisim a {
+  color: #c0bab6;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#solKisim h1 {
+  padding: 0;
+  margin: 0;
+}
+
+#solKisim p {
+  color: #c0bab6;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+#sagKisim {
+  width: 70%;
+  height: 100px;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding-top: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #232323;
+  padding: 10px 32px;
+  float: left;
+}
+nav ul li a {
+  color: #c0bab6;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #9b1b30;
+}
+
+main {
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+}
+
+#hizalaTwo {
+   
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0;
+}
+
+#sectionOne {
+    
+    width: 100%;
+    height: 360px;
+    background-color:#333333 ;
+    padding-top: 100px;
+}
+
+ #sectionOne h1 {
+     color: #fff;
+     font-size: 36px;
+     text-align: center;
+ }
+
+ #sectionTwo {
+     
+     width: 100%;
+     height: 400px;
+     padding-top: 35px;
+ }
+
+ #box {
+    
+     width: 30%;
+     height: auto;
+     float: left;
+     margin-right: 40px;
+ }
+
+ .cerceve {
+     border: 2px solid #333333;
+     width: 100%;
+     height: 180px;
+     padding: 2px;
+ }
+
+ .resim {
+    background-color:#333333 ;
+    width: 100%;
+    height: 172px;
+    padding-top: 60px;
+}
+
+.resim h1 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+#box h4 {
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+}
+
+#box p {
+    color:#333333 ;
+}
+
+.linkAyar {
+    float: right;
+    color: #9b1b30;
+}
+
+#sectionThree {
+   
+    width: 100%;
+    height: 350px;
+}
+
+#partOne {
+    
+    width: 49%;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+#partOne p {
+    font-size: 16px;
+    line-height: 25px ;
+}
+
+.renkLink {
+    color: #9b1b30;
+}
+
+#partTwo {
+    border: 2px solid #333333 ;
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding: 2px;
+}
+
+#resimTwo {
+    background-color: #333333;
+    width: 100%;
+    height: 292px;
+    padding-top: 110px;
+}
+
+#resimTwo h1 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+    background-color: #333333;
+}
+
+#part {
+   
+    width: 33%;
+    height: 200px;
+    float: left;
+}
+
+#part h2 {
+    color: #fff;
+}
+
+#part ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#part li {
+    margin-top: 6px;
+    color: #fff;
+}
+
+
+#part a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#logoOne {
+    
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+    background-image:url(img/facebook.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logoOne:hover {
+    background-image: url(img/facebookHover.png);
+}
+
+#logoTwo {
+    
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-image: url(img/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logoTwo:hover {
+    background-image: url(img/instagramHover.png);
+}
